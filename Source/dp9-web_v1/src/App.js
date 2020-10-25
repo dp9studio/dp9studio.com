@@ -1,10 +1,12 @@
 import './App.css';
+import HeaderNav from './components/header';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello.</h1>
-    </div>
+    <Router>
+      <HeaderNav />
+    </Router>
   );
 }
 
