@@ -1,15 +1,15 @@
 import React from 'react';
-import { Nav, NavLink, NavMenuDesktop, NavMenuMobile } from './elements';
-import logo from '../../assets/logos/DP9 Studio (Cropped - Simple).png';
+import { Nav, NavLink, NavLogo, NavMenuDesktop, NavMenuMobile } from './elements';
+import logo from '../../images/logos/DP9 Studio (Simple).png';
 
 
-const HeaderNav = () => {
+const NavSystem = () => {
     return (
         <>
             <Nav>
-                <NavLink to="/" style={{ padding: "0", width: "128px" }}>
-                    <img src={logo} alt="DP9 Studio" height="48px"></img>
-                </NavLink>
+                <NavLogo to="/">
+                    <img src={logo} alt="DP9 Studio" height="100%"></img>
+                </NavLogo>
                 <NavMenuDesktop>
                     <NavLink to="/about" activeStyle>
                         <b>ABOUT</b>
@@ -37,4 +37,4 @@ const HeaderNav = () => {
     );
 };
 
-export default HeaderNav;
+export default NavSystem;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { NavLink as Link } from 'react-router-dom';
+import { Link } from "gatsby";
 
 export const Nav = styled.nav`
     background: none;
@@ -10,6 +10,7 @@ export const Nav = styled.nav`
     float: right;
 
     @media screen and (max-width: 720px) {
+    align-items: center;
     right: 0;
     width:100vh;    
     position:fixed;
@@ -40,13 +41,28 @@ export const NavLink = styled(Link)`
 
     @media screen and (max-width: 720px) {
     width: 100%;
-    padding: 0px 0px 0px 32px;
+    padding: 0px 0px 0px 16px;
     font-size: 32px;
     }
 
-    @media screen and (max-height: 720px) {
-    padding: 0px 0px 0px 16px;
+    @media screen and (max-width: 720px) and (max-height: 720px) {
     font-size: 24px;
+    }
+`
+
+export const NavLogo = styled(Link)`
+    height: 48px;
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 720px) {
+    height: 32px;
+    padding-right: 48px;
+    }
+
+    @media screen and (max-width: 720px) and (max-height: 720px) {
+    height: 24px;
+    padding-right: 16px;
     }
 `
 
@@ -67,10 +83,5 @@ export const NavMenuMobile = styled.div`
     @media screen and (max-width: 720px) {
     display: flex;
     align-items: center;
-    padding-left: 32px
-    }
-
-    @media screen and (max-height: 720px) {
-    padding-left: 48px
     }
 `
