@@ -1,6 +1,6 @@
 <a href="https://github.com/dp9studio/Website/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/dp9studio/Website?style=for-the-badge" /></a>
-<img src="https://img.shields.io/github/languages/top/dp9studio/Website?style=for-the-badge" />
-<img src="https://img.shields.io/github/last-commit/dp9studio/Website?style=for-the-badge" />
+<a href="https://github.com/dp9studio/Website/search?l=javascript"><img src="https://img.shields.io/github/languages/top/dp9studio/Website?style=for-the-badge" /></a>
+<a href="https://github.com/dp9studio/Website/commits/main"><img src="https://img.shields.io/github/last-commit/dp9studio/Website?style=for-the-badge" /></a>
 <a href="https://dp9studio.com"><img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fdp9studio.com" /></a>
 
 ## 📝 Attribution
