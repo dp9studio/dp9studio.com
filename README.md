@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/dp9studio/Website/blob/main/LICENSE.md">
+  <a href="https://github.com/dp9studio/Website/blob/master/LICENSE.md">
     <img src="https://img.shields.io/github/license/dp9studio/Website?style=for-the-badge" />
   </a>
   <a href="https://github.com/dp9studio/Website/search?l=javascript">
