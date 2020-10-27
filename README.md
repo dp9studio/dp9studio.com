@@ -11,8 +11,7 @@
   <a href="https://dp9studio.com">
     <img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fdp9studio.com" />
   </a>
-</p>
-<p align="center">
+  <br>
   <a href="https://discord.gg/Z2ujJ2U">
     <img src="https://img.shields.io/discord/697847444112670833?style=for-the-badge" />
   </a>
