@@ -9,14 +9,14 @@
     <img src="https://img.shields.io/github/last-commit/dp9studio/Website?style=for-the-badge" />
   </a>
   <a href="https://dp9studio.com">
-    <img src="https://img.shields.io/website?style=for-the-badge&url=https%3A%2F%2Fdp9studio.com" />
+    <img src="https://img.shields.io/website?label=dp9studio.com&style=for-the-badge&url=https%3A%2F%2Fdp9studio.com" />
   </a>
   <br>
   <a href="https://discord.gg/Z2ujJ2U">
-    <img src="https://img.shields.io/discord/697847444112670833?style=for-the-badge" />
+    <img src="https://img.shields.io/discord/697847444112670833?label=Discord&color=7289DA&logo=discord&logoColor=FFFFFF&style=for-the-badge" />
   </a>
-  <a href="https://twitter.com/dp9studio">
-    <img src="https://img.shields.io/twitter/follow/dp9studio?style=for-the-badge" />
+  <a href="https://twitter.com/intent/follow?user_id=1227878307535847424">
+    <img src="https://img.shields.io/twitter/follow/dp9studio?label=Twitter&color=1DA1F2&logo=twitter&logoColor=FFFFFF&style=for-the-badge" />
   </a>
 </p>
 
