@@ -1,0 +1,181 @@
+/* ==========================================================================
+   General Styling
+   ========================================================================== */
+
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-attachment: fixed;
+  background-image: url("assets/temp_bg_blurred.jpg");
+  background-color: var(--dp9GREEN);
+  background-position: 0% 75%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: table-row;
+}
+
+/* Content layout types
+   ========================================================================== */
+
+.dp9CONTENT {
+  display: list-item;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10vh 10%;
+}
+
+.dp9TEXT {
+  padding: 2.5vh 40% 2.5vh 0%;
+}
+
+.dp9CONTACT {
+  padding: 7.5vh 0%;
+  text-align: right;
+}
+
+.dp9CONTACT a {
+  color: white;
+}
+
+.dp9CONTACT a:hover {
+  color: var(--dp9GREEN);
+}
+
+.dp9CONTACT a:active {
+  color: white;
+}
+
+@media screen and (max-width: 1300px) {
+  .dp9TEXT {
+    padding-right: 20%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .dp9TEXT {
+    padding-right: 0%;
+  }
+}
+
+/* DP9 colour palette
+   ========================================================================== */
+
+:root {
+  --dp9GREEN: #91c364;
+  --adminBLUE: #004696;
+  --creatYELLOW: #ffeb00;
+  --techRED: #e60032;
+}
+
+/* Hyperlinks
+   ========================================================================== */
+
+li,
+a {
+  color: var(--dp9GREEN);
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+li:hover,
+a:hover {
+  color: white;
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+li:active,
+a:active {
+  color: var(--dp9GREEN);
+  text-decoration: underline;
+  transition: 0.3s ease-in-out;
+}
+
+/* Text
+   ========================================================================== */
+
+h1 {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 12vmin;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 10vmin;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 8vmin;
+  font-weight: 700;
+}
+
+h4 {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 6vmin;
+  font-weight: 700;
+}
+
+h5 {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 3vmin;
+  font-weight: 400;
+}
+
+h6 {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5vmin;
+  font-weight: 200;
+}
+
+p {
+  color: white;
+  font-family: "Barlow", sans-serif;
+  font-size: 1.5vmin;
+  font-weight: 400;
+}
+
+/* Twemoji
+   ========================================================================== */
+
+img.emoji {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  display: inline !important;
+  vertical-align: -0.3em !important;
+
+  margin: 0 0.07em !important;
+  padding: 0 !important;
+
+  height: 1.25em !important;
+  width: 1.25em !important;
+}
+
+/* Ionicons
+   ========================================================================== */
+
+ion-icon {
+  font-size: 5vmin;
+}
