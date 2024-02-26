@@ -2,7 +2,7 @@
   <a href="https://github.com/dp9studio/Website/blob/master/LICENSE.md">
     <img src="https://img.shields.io/github/license/dp9studio/Website?style=for-the-badge" />
   </a>
-  <a href="https://github.com/dp9studio/dp9studio.com/commits/main">
+  <a href="https://github.com/dp9studio/dp9studio.com/commits/master">
     <img src="https://img.shields.io/github/last-commit/dp9studio/dp9studio.com?style=for-the-badge" />
   </a>
   <a href="https://dp9studio.com">
