@@ -2,8 +2,8 @@
   <a href="https://github.com/dp9studio/Website/blob/master/LICENSE.md">
     <img src="https://img.shields.io/github/license/dp9studio/Website?style=for-the-badge" />
   </a>
-  <a href="https://github.com/dp9studio/Website/commits/main">
-    <img src="https://img.shields.io/github/last-commit/dp9studio/Website?style=for-the-badge" />
+  <a href="https://github.com/dp9studio/dp9studio.com/commits/main">
+    <img src="https://img.shields.io/github/last-commit/dp9studio/dp9studio.com?style=for-the-badge" />
   </a>
   <a href="https://dp9studio.com">
     <img src="https://img.shields.io/website?label=dp9studio.com&style=for-the-badge&url=https%3A%2F%2Fdp9studio.com" />
